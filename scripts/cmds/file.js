@@ -16,14 +16,14 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100088513497761"];
+    const permission = ["100092029284179"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("খানকির ছেলে আর একবার File চাইলে না! তোর গুষ্টি চুদে দিবো Without Condom  😡", event.threadID, event.messageID);
+      return api.sendMessage("This file is secret", event.threadID, event.messageID);
     }
 
     const fileName = args[0];
     if (!fileName) {
-      return api.sendMessage("File এর নাম লেখো জান, নইলে চপেটাঘাত করবো 😘", event.threadID, event.messageID);
+      return api.sendMessage("File এর নাম লেখো জান, 😘", event.threadID, event.messageID);
     }
 
     const safeFileName = path.basename(fileName); 
