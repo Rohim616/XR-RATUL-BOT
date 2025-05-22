@@ -18,9 +18,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, event, api, usersData }) {
-    const permission = ["100088513497761"];
+    const permission = ["100092029284179"];
   if (!permission.includes(event.senderID)) {
-    api.sendMessage("📑Ye command 📝Amit Sir Mere Øwner Ko Hi Allow Hai ✋❌ .", event.threadID, event.messageID);
+    api.sendMessage("📑This command only for admin - XR ✋❌ .", event.threadID, event.messageID);
     return;
   }
     const query = args[0];
