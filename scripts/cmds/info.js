@@ -20,7 +20,7 @@ module.exports = {
 
 • Name: XR RATUL  
 • Gender: Male  
-• Date of birth: 18-05-2006  
+• Date of birth: 27-02-2005 
 • Religion: islam  
 • Blood: A+  
 • Height: 5.7 ft  
