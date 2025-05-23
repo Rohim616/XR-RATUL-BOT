@@ -16,7 +16,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100092029284179"];
+    const permission = ["100092029284179","61572609674891"];
     if (!permission.includes(event.senderID)) {
       return api.sendMessage("This file is secret", event.threadID, event.messageID);
     }
