@@ -44,7 +44,7 @@ module.exports = {
 
       response += `⚒️ Bot has: ${totalCommands} Commands\n`;
       response += `🛸 Prefix: ${prefix}\n`;
-      response += `👑 Owner: ×͜× Your Name\n\n`;
+      response += `👑 Owner: ×͜× XR RATUL\n\n`;
       response += `Type '${prefix}help <cmdName>' to see detailed information about a specific command.`;
 
       const sentMessage = await message.reply(response);
