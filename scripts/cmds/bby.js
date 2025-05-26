@@ -5,7 +5,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "bby",
-    aliases: ["baby", "bbe", "babe", "oi"],
+    aliases: ["baby", "oi", "babe"],
     version: "6.9.0",
     author: "dipto",
     countDown: 0,
@@ -30,7 +30,7 @@ module.exports.onStart = async ({
 
     try {
         if (!args[0]) {
-            const ran = ["Bolo baby", "hum", "type help baby", "type !baby hi"];
+            const ran = ["Bolo baby", "hum", "type help baby", "type Xr,baby hi"];
             return api.sendMessage(ran[Math.floor(Math.random() * ran.length)], event.threadID, event.messageID);
         }
 
@@ -159,7 +159,7 @@ module.exports.onChat = async ({
 }) => {
     try {
         const body = event.body ? event.body?.toLowerCase() : ""
-        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jan") || body.startsWith("babu") || body.startsWith("janu")) {
+        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jaan") || body.startsWith("hi") || body.startsWith("oi") || body.startsWith("hello") || body.startsWith("🐱") || body.startsWith("🙂")) {
             const arr = body.replace(/^\S+\s*/, "")
             const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "What's up? dear", "Bolo jaan ki korte pari tmr jonno", "Eito ami asi 🥰", "XR nai..!🙃 ki bolbe amake bolo <3", "group a new naki tmi🧐 etobar dako kno..!?", "janos na ami busy thaki!😠", "Ami tmr baby nah 😗", "Miss you bby😘 "];
             if (!arr) {
