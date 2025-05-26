@@ -20,7 +20,7 @@ module.exports = {
     const { threadID, messageID, senderID } = event;
 
     if (!args[0]) {
-      return api.sendMessage("⚠️ Please provide your birthdate in DD-MM-YYYY format.\n\nExample: `.age2 18-05-2006`", threadID, messageID);
+      return api.sendMessage("⚠️ Please provide your birthdate in DD-MM-YYYY format.\n\nExample: `.age 27-02-2005`", threadID, messageID);
     }
 
     const birthDate = moment.tz(args[0], "DD-MM-YYYY", true, "Asia/Dhaka");
