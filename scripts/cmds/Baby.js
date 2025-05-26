@@ -6,7 +6,7 @@ const autoReplyEnabled = {};
 module.exports = {
   config: {
     name: "baby",
-    aliases: ["jan", "dear"],
+    aliases: ["jan"],
     version: "1.0.9",
     author: "Xrotick",
     countDown: 2,
