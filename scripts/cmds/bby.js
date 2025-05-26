@@ -5,7 +5,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "bby",
-    aliases: ["baby", "bbe", "babe"],
+    aliases: ["baby", "bbe", "babe", "oi"],
     version: "6.9.0",
     author: "dipto",
     countDown: 0,
@@ -161,7 +161,7 @@ module.exports.onChat = async ({
         const body = event.body ? event.body?.toLowerCase() : ""
         if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jan") || body.startsWith("babu") || body.startsWith("janu")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["😚", "Yes 😀, I am here", "What's up?", "Bolo jaan ki korte panmr jonno"];
+            const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "What's up? dear", "Bolo jaan ki korte pari tmr jonno", "Eito ami asi 🥰", "XR nai!🙃 ki bolbe amake bolo <3", "group a new naki tui🧐,janos na ami busy thaki!😠];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
