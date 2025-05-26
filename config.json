@@ -12,13 +12,13 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "🐱Baby💜",
+	"nickNameBot": "XR Koko💜",
 	"prefix": "Xr,",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": ["61576810827517","61572609674891"],
+	"adminBot": ["61576559738942","61572609674891"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
