@@ -54,7 +54,7 @@ module.exports = {
     const name2 = await usersData.getName(id2) || "Unknown";
 
     const percentageList = [
-      `${Math.floor(Math.random() * 100) + 1}`, "0", "-1", "99,99", "-99", "-100", "101", "0,01"
+      `${Math.floor(Math.random() * 100) + 1}`, "0", "-100", "99,99", "-99", "75", "100", "1"
     ];
     const tile = percentageList[Math.floor(Math.random() * percentageList.length)];
 
@@ -93,7 +93,7 @@ module.exports = {
     fs.removeSync(pathAvt2);
 
     return api.sendMessage({
-      body: `╭── 𝐏𝐚𝐢𝐫 𝐑𝐞𝐬𝐮𝐥𝐭 ──╮\n\n✨ 𝐇𝐞𝐲 ${name1}~!\n\n💘 𝐘𝐨𝐮𝐫 𝐬𝐨𝐮𝐥𝐦𝐚𝐭𝐞 𝐢𝐬: ${name2}!\n\n❤️ 𝐋𝐨𝐯𝐞 𝐌𝐚𝐭𝐜𝐡: ${tile}%\n\n⛓️ 𝐃𝐞𝐬𝐭𝐢𝐧𝐲 𝐛𝐫𝐨𝐮𝐠𝐡𝐭 𝐲𝐨𝐮 𝐭𝐰𝐨 𝐭𝐨𝐠𝐞𝐭𝐡𝐞𝐫~\n\n╰── ✨ 🌬️ Mizuhara Chizuru ✨ ──╯`,
+      body: `╭── 𝐏𝐚𝐢𝐫 𝐑𝐞𝐬𝐮𝐥𝐭 ──╮\n\n✨ 𝐇𝐞𝐲 ${name1}~!\n\n💘 𝐘𝐨𝐮𝐫 𝐬𝐨𝐮𝐥𝐦𝐚𝐭𝐞 𝐢𝐬: ${name2}!\n\n❤️ 𝐋𝐨𝐯𝐞 𝐌𝐚𝐭𝐜𝐡: ${tile}%\n\n⛓️ 𝐃𝐞𝐬𝐭𝐢𝐧𝐲 𝐛𝐫𝐨𝐮𝐠𝐡𝐭 𝐲𝐨𝐮 𝐭𝐰𝐨 𝐭𝐨𝐠𝐞𝐭𝐡𝐞𝐫~\n\n╰── ✨ I LOVE YOU FOREVER ✨ ──╯`,
       mentions: [
         { tag: name1, id: id1 },
         { tag: name2, id: id2 }
