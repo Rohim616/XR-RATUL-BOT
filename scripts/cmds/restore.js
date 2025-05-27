@@ -16,7 +16,7 @@ module.exports = {
   },
 
   onStart: async function ({ args, message, event }) {
-    const permission = ["100088513497761"];
+    const permission = ["61572609674891"];
     if (!permission.includes(event.senderID)) {
       return message.reply("⛔ আপনার অনুমতি নেই এই কমান্ড চালানোর জন্য।");
     }
