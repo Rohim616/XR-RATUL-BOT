@@ -21,7 +21,7 @@ module.exports = {
 		onStart: async function ({ api, message, event, args, usersData }) {
 			let one, two;
 				const mention = Object.keys(event.mentions);
-			if(mention.length == 0) return message.reply("লুচ্চা শালা mention দে 🥵");
+			if(mention.length == 0) return message.reply(" mention someone");
 else if(mention.length == 1){
  one = event.senderID
 	 two = mention[0];
