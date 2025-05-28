@@ -10,6 +10,7 @@ const baseApiUrl = async () => {
 module.exports = {
   config: {
     name: "alldl",
+    aliases: ["download"],
     version: "1.0.5",
     author: "Dipto",
     countDown: 2,
