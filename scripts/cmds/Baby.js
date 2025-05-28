@@ -34,13 +34,13 @@ module.exports = {
       return api.sendMessage("Hi babu! 😘 Auto-reply mode [ON]hoye gese... ekhon ami full romantic mode-e achi tmr jonno ❤️", threadID, messageID);
     }
 
-    if (userMessage.toLowerCase() === "off") {
+    if (userMessage.toLowerCase() === "on") {
       autoReplyEnabled[senderID] = false;
       chatHistories[senderID] = [];
       return api.sendMessage("Aww... Auto-reply [OFF]hoye gese... Tumi ar amake bhalobasho na? 🥺", threadID, messageID);
     }
 
-    if (!autoReplyEnabled[senderID] && !body.toLowerCase().startsWith("misha")) return;
+    if (!autoReplyEnabled[senderID] && !body.toLowerCase().startsWith("babe")) return;
 
     if (!chatHistories[senderID]) {
       chatHistories[senderID] = [];
