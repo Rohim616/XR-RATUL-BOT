@@ -159,9 +159,9 @@ module.exports.onChat = async ({
 }) => {
     try {
         const body = event.body ? event.body?.toLowerCase() : ""
-        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jaan") || body.startsWith("hi") || body.startsWith("oi") || body.startsWith("hello") || body.startsWith("🐱") || body.startsWith("hi")) {
+        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jaan") || body.startsWith("hi") || body.startsWith("oi") || body.startsWith("hello") || body.startsWith("Xr") || body.startsWith("hi")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "What's up? dear", "Bolo jaan ki korte pari tmr jonno", "Eito ami asi 🥰", "XR nai..!🙃 ki bolbe amake bolo <3", "group a new naki tmi🧐 etobar dako kno..!?", "janos na ami busy thaki!😠", "Ami tmr baby nah 😗", "Miss you bby😘 "];
+            const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "What's up? dear", "Bolo jaan ki korte pari tmr jonno", "Eito ami asi 🥰", "XR nai..!🙃 ki bolbe amake bolo <3", "XR tmr ki hoy?😏", "din kal kmn choltese bby !?🥰". "চল তোমাকে Science এর কিছু মজাদার প্রশ্ন করি😊!       খেলতে চাইলে Xr,quiz লেখ 🤠", "thanks for remembering me 🥲💜", "Be happy & always take smile on your face☺️", "group a new naki tmi🧐 etobar dako kno..!?", "janos na ami busy thaki!😠", "Ami toh tmr baby nah 😗", "Miss you bby😘 "];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
