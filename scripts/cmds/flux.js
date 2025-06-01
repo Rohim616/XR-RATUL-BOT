@@ -2,6 +2,7 @@ const axios = require("axios");
 
 module.exports.config = {
   name: "flux",
+   aliases: ["ai3"],
   version: "2.0",
   role: 0,
   author: "Dipto",
