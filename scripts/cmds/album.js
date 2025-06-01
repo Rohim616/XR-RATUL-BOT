@@ -55,7 +55,7 @@ module.exports = {
         albumOptions
           .map((option, index) => `${index + 1}. ${option} 💐`)
           .join("\n") +
-        "\n✿━━━━━━━━━━━━━━━━━━━━━━━✿";
+        "\n✿━━━━━━━━━━━━━━━━━━━━━━━✿ \n\n reply this messege with album number🌚";
 
       await api.sendMessage(
         message,
@@ -369,7 +369,7 @@ module.exports = {
         );
       } catch (error) {
         api.sendMessage(
-          " Issue-1 : There was an error to open the file\nor\nIssue-2 : only XR can open the file 👽\nPlease try another one",
+          " Issue-1 : There was an error to open the file\n--------or--------\nIssue-2 : only XR can open the file 👽\n\nNOTE: try another album number",
           event.threadID,
           event.messageID,
         );
