@@ -48,26 +48,6 @@ module.exports = {
         "𝗚𝗶𝗿𝗹 𝘃𝗶𝗱𝗲𝗼",
         "𝗙𝗿𝗶𝗲𝗻𝗱𝘀 𝗩𝗶𝗱𝗲𝗼",
          "cartoon",
-      "photo",
-      "lofi",
-      "sad",
-      "islamic",
-      "funny",
-      "horny",
-      "anime",
-      "love",
-      "baby",
-      "lyrics",
-      "sigma",
-      "photo",
-      "aesthetic",
-      "cat",
-      "flower",
-      "ff",
-      "sex",
-      "girl",
-      "football",
-      "friend",
       ];
       const message =
         "🪐 𝗖𝗵𝗼𝗼𝘀𝗲 𝗮𝗻 𝗼𝗽𝘁𝗶𝗼𝗻𝘀 𝗕𝗮𝗯𝘆 🪐\n" +
@@ -389,7 +369,7 @@ module.exports = {
         );
       } catch (error) {
         api.sendMessage(
-          " some files are allowed only fo admin 👽.",
+          " Issue-1 : There was an error to open the file\nor\nIssue-2 : only XR can open the file 👽\nPlease try another one",
           event.threadID,
           event.messageID,
         );
