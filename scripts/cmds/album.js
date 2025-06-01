@@ -342,7 +342,7 @@ module.exports = {
       } else if (reply === 17) {
         query = "football";
         cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗙𝗼𝗼𝘁𝗯𝗮𝗹𝗹 𝘃𝗶𝗱𝗲𝗼<😙";
-      } else if (reply === 18) {
+      } else if (reply === 18 && event.senderID === admin) {
         query = "girl";
         cp = "𝗡𝗮𝘄 𝗕𝗮𝗯𝘆 𝗚𝗶𝗿𝗹 𝘃𝗶𝗱𝗲𝗼<😙";
       } else if (reply === 19) {
@@ -360,7 +360,7 @@ module.exports = {
         fs.writeFileSync(filename, Buffer.from(imgRes.data, "binary"));
         api.sendMessage(
           {
-            body: `${cp}\n\n Don't share it to outside 👽 `,
+            body: `${cp}\n\n Don't share it to outside 👽 Okay..! `,
             attachment: fs.createReadStream(filename),
           },
           event.threadID,
