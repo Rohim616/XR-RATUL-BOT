@@ -382,7 +382,7 @@ break;
 
 case "loan":
 
-  const maxLoanAmount = 100000000; //increase of decrease this
+  const maxLoanAmount = 1000000000000000000000; //increase of decrease this
 
   const userLoan = bankData[user].loan || 0;
 
