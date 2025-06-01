@@ -1,6 +1,7 @@
 module.exports = {
   config: {
     name: "poli",
+    aliases: ["ai5"],
     version: "1.0.0",
     author: "Amit Max ⚡",
     countDown: 5,
