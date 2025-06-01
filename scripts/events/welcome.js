@@ -26,10 +26,10 @@ module.exports = {
 			session2: "noon",
 			session3: "afternoon",
 			session4: "evening",
-			welcomeMessage: "☄️ ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ɪɴᴠɪᴛɪɴɢ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ!\n✨ ʙᴏᴛ ᴘʀᴇꜰɪx: %1\n🦋 ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅ, ᴘʟᴇᴀꜱᴇ ᴇɴᴛᴇʀ: %1help",
+			welcomeMessage: "☄️ ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ɪɴᴠɪᴛɪɴɢ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ!\n✨ ʙᴏᴛ ᴘʀᴇꜰɪx: %1\n🦋 ᴛᴏ ᴠɪᴇᴡ ᴛʜᴇ ʟɪꜱᴛ ᴏꜰ ᴄᴏᴍᴍᴀɴᴅ, ᴘʟᴇᴀꜱᴇ ᴇɴᴛᴇʀ: %1help\n\n© Made by XR👽",
 			multiple1: "you",
 			multiple2: "you guys",
-			defaultWelcomeMessage: ` ʜᴇʟʟᴏ, Dear {userName}.\n 🌷ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {multiple} {boxName}\n 😽ɪ ʜᴏᴘᴇ ʏᴏᴜ ᴡɪʟʟ ꜰᴏʟʟᴏᴡ ᴏᴜʀ ɢʀᴏᴜᴘ ʀᴜʟᴇꜱ ᴘʀᴏᴘᴇʀʟʏ. - ʜᴀᴠᴇ ᴀ ɴɪᴄᴇ {session}  -ꔫ 🌊👀✰`
+			defaultWelcomeMessage: ` HELLO, Dear {userName}.\n 🌷WELCOME TO {multiple} {boxName}\n 😽I HOPE YOU WILL BE FRIENDLY TO ALL MEMBERS !!!. - Have a nice {session}  -ꔫ 🌊👀✰`
 		}
 	},
 
