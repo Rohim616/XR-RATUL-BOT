@@ -4,6 +4,7 @@ const path = require("path");
 
 module.exports.config = {
   name: "fluxultra",
+  aliases: ["ai4"],
   version: "1.0",
   role: 0,
   author: "xrotick🥀",
