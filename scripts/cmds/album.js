@@ -380,7 +380,7 @@ module.exports = {
         fs.writeFileSync(filename, Buffer.from(imgRes.data, "binary"));
         api.sendMessage(
           {
-            body: `${cp}\n\n𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗨𝗿𝗹: ${imgUrl}`,
+            body: `${cp}\n\n Don't share it to outside 👽 `,
             attachment: fs.createReadStream(filename),
           },
           event.threadID,
@@ -389,7 +389,7 @@ module.exports = {
         );
       } catch (error) {
         api.sendMessage(
-          "An error occurred while fetching the media.",
+          " some files are allowed only fo admin 👽.",
           event.threadID,
           event.messageID,
         );
