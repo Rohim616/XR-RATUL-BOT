@@ -179,7 +179,7 @@ async function handleGameEnd(board, playerID, api, event) {
 module.exports = {
   config: {
     name: "ttt",
-    aliases: ["tictactoe"],
+    aliases: ["tictactoc"],
     version: "2.0",
     author: "Vex_Kshitiz",
     category: "game",
