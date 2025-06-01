@@ -5,6 +5,7 @@ const fs = require('fs-extra');
 module.exports = {
   config: {
     name: "genx",
+    aliases:["add", "ai1"],
     aliases: [],
     version: "1.0",
     author: "Vex_Kshitiz",
