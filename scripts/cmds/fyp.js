@@ -34,7 +34,7 @@ async function checkAuthor(authorName) {
 module.exports = {
   config: {
     name: "fyp",
-    aliases: [],
+    aliases: ["search", "video"],
     author: "Vex_Kshitiz",
     version: "1.0",
     shortDescription: {
