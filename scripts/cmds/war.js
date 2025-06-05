@@ -18,6 +18,10 @@ module.exports = {
     var arraytag = []; 
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
+    setTimeout(() => {a({body: "let start dear bokachuda...." + " " + name, mentions: arraytag})}, 5000);
+    setTimeout(() => {a({body: "3" + " " + name, mentions: arraytag})}, 5000);
+     setTimeout(() => {a({body: "2" + " " + name, mentions: arraytag})}, 5000);
+     setTimeout(() => {a({body: "1" + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "তর মার ভোদায় পাব্লিক টয়লেট 🥵তর মায়ের ভুদাতে পোকা 🥵তর বাপের হোল তর বউয়ের ভোদাতেদিমু " + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "আবাল চোদা কান্দে ফালাইয়া তর মায়েরে চুদি🥵🥵" + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "ভুদার বেটা  তর মা এর ভুদায় ধান ছড়াইয়া চড়ুই দিয়া খাওয়ামু❤" + " " + name, mentions: arraytag})}, 7000);
