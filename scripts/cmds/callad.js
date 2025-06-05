@@ -39,7 +39,7 @@ module.exports = {
 			sendByGroup: "\n- Sent from group: %1\n- Thread ID: %2",
 			sendByUser: "\n- Sent from user",
 			content: "\n\n📩Content:\n─────────────────\n📨 : %1\n─────────────────\nReply this message to send message to user",
-			success: "Sent your message to %1 admin successfully!\n%2",
+			success: "Sent your message to Denji successfully!\n%2\n\nwait for reply",
 			failed: "An error occurred while sending your message to %1 admin\n%2\nCheck console for more details",
 			reply: "📬 Reply from admin %1:\n─────────────────\n%2\n─────────────────\nReply this message to continue send message to admin",
 			replySuccess: "Sent your reply to admin successfully!",
