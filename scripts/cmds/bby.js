@@ -5,7 +5,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "bby",
-    aliases: ["baby", "oi", "babe"],
+    aliases: ["baby", "oi", "babe", "denji"],
     version: "6.9.0",
     author: "dipto",
     countDown: 0,
@@ -159,9 +159,9 @@ module.exports.onChat = async ({
 }) => {
     try {
         const body = event.body ? event.body?.toLowerCase() : ""
-        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jaan") || body.startsWith("hi") || body.startsWith("oi") || body.startsWith("hello") || body.startsWith("Xr") || body.startsWith("hi")) {
+        if (body.startsWith("baby") || body.startsWith("bby") || body.startsWith("bot") || body.startsWith("jaan") || body.startsWith("hi") || body.startsWith("oi") || body.startsWith("hello") || body.startsWith("xr") || body.startsWith("alien")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "I LOVE YOU😘    reply dee harami🤧🔪", "Tmr sathe timepass korte amr valo lage🙃 cholo adda dei🤗", "What's up? dear", "Bolo jaan ki korte pari tmr jonno", "Aito ami asi 🥰", "XR nai..!🙃 ki bolbe amake bolo <3", "XR tmr ki hoy?😏", "din kal kmn choltese bby !?🥰", "চল তোমাকে Science এর কিছু মজাদার প্রশ্ন করি😊! খেলতে চাইলে Xr,quiz লেখ 🤠", "thanks for remembering me 🥲💜", "Be happy & always take smile on your face☺️", "group a new naki tmi🧐 etobar dako kno..!?", "janos na ami busy thaki!😠", "Ami toh tmr baby nah 😗", "Miss you bby😘"];
+            const randomReplies = ["🙋‍♂️", "Yes 😀, I am here", "I LOVE YOU😘    reply dee harami🤧🔪", "Brain 🧠 নিজের নাম টা নিজেই দিছে, আবার নিজেই নিজেকে নিয়ে নিয়ে study করে \n haha🤣", "What's up? dear", "Bhai😃...\n কথায় আছে 'practice makes a man perfect',অবার লোকে বলে 'পৃথিবীর কেউ কখনো perfect হয় নাহ'🙂\n বিষয় টা চিন্তার নাহ..?!🤔", "Aito ami asi 🥰", "XR nai..!🙃 ki bolbe amake bolo <3", "Bhai..🫠\nমশা আমাদের রক্ত খেয়ে ডিম পারে, তাহলে কি আমরা মশার বাবা-মা হই..!?🤔", "din kal kmn choltese bby !?🥰", "চল তোমাকে Science এর কিছু মজাদার প্রশ্ন করি😊! খেলতে চাইলে 'Xr,quiz' লেখ 🤠", "ঘুমিয়ে স্বপ্ন দেখাটা ডিরেক্ট মুভি দেখার মতন😌\nযেটার actor-directors সব আমি নিজেই 😎\n hehe😏", "Be happy & always take smile on your face☺️", "group a new naki tmi🧐 etobar dako kno..!?", "মনে করো আমি নিজেকে নিজে থাপ্পর মেরে অনেক ব্যাথা পাইলাম🤕, তার মানে কি আমি অনেক  strong নাকি দুর্বল..?🙂", "Ami toh tomake chini nah 😗", "Miss you bby😘"];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
